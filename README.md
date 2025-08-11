@@ -278,33 +278,34 @@ sequenceDiagram
 ``` 
 
 ## Buenas prácticas en seguridad web
-Manejo de tokens:
 
-Usar HTTP-only cookies para almacenar tokens
+### Manejo de tokens:
 
-Implementar refresh tokens con expiración corta (15-30 min)
+- Usar HTTP-only cookies para almacenar tokens
 
-Nunca exponer tokens en URLs
+- Implementar refresh tokens con expiración corta (15-30 min)
 
-Protección de datos:
+- Nunca exponer tokens en URLs
 
-Hash de contraseñas con bcrypt/PBKDF2
+### Protección de datos:
 
-Validar y sanitizar TODOS los inputs de usuario
+- Hash de contraseñas con bcrypt/PBKDF2
+
+- Validar y sanitizar TODOS los inputs de usuario
 
 ## Aplicaciones reales en plataformas modernas
 
-Redes Sociales:
+### Redes Sociales:
 
-Facebook: Usa OAuth 2.0 + tokens propios
+- Facebook: Usa OAuth 2.0 + tokens propios
 
-Twitter: Implementa autenticación multifactor
+- Twitter: Implementa autenticación multifactor
 
-Servicios Cloud:
+### Servicios Cloud:
 
-AWS: Credenciales temporales con IAM
+- AWS: Credenciales temporales con IAM
 
-GitHub: Personal Access Tokens (PATs)
+- GitHub: Personal Access Tokens (PATs)
 
 
 # 4. Gestores de contenido desacoplados (Headless CMS)
