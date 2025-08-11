@@ -262,20 +262,7 @@ El control de versiones es un sistema que registra los cambios realizados en un 
 
 ## Diagrama de flujo explicativo del proceso de autenticación con JWT
 
-```mermaid
-sequenceDiagram
-    participant Cliente
-    participant Servidor
-    participant BD
-    Cliente->>Servidor: POST /login (credenciales)
-    Servidor->>BD: Validar usuario
-    BD-->>Servidor: Datos usuario
-    Servidor->>Servidor: Generar JWT
-    Servidor-->>Cliente: Enviar JWT
-    Cliente->>Servidor: Solicitud con JWT
-    Servidor->>Servidor: Validar JWT
-    Servidor-->>Cliente: Respuesta autorizada
-``` 
+![alt text](image.png)
 
 ## Buenas prácticas en seguridad web
 
@@ -354,17 +341,7 @@ La arquitectura utilizada en un Headless CMS se centra en la separación clara e
    - Apps móviles (iOS/Android)  
    - Dispositivos IoT (pantallas digitales, wearables)  
 
-```mermaid
-graph TD
-    A[Panel de Administración] -->|CRUD de Contenido| B[(Base de Datos)]
-    B --> C[Capa de API]
-    C --> D[REST API]
-    C --> E[GraphQL]
-    C --> F[Webhooks]
-    D --> G[Aplicación Web]
-    E --> H[Aplicación Móvil]
-    F --> I[Generador de Sitios Estáticos]
-```
+![alt text](image-1.png)
 
 ## Ventajas, limitaciones y casos de uso comunes.
 
@@ -402,17 +379,9 @@ La arquitectura de un Headless CMS se centra en la separación clara entre la ge
    - Dispositivos IoT (pantallas digitales, wearables)  
 
 #### Diagrama Ejemplo:
-```mermaid
-graph TD
-    A[Admin Panel] -->|CRUD Content| B[(Database)]
-    B --> C[API Layer]
-    C --> D[REST API]
-    C --> E[GraphQL]
-    C --> F[Webhooks]
-    D --> G[Web App]
-    E --> H[Mobile App]
-    F --> I[Static Site Generator]
-```
+
+![alt text](image-2.png)
+
 ### Conexión con Contentful (React):
 
 1.  Instalar SDK:
@@ -477,21 +446,10 @@ Sistema que procesa transacciones financieras entre compradores y vendedores en 
 - Gestión de reembolsos y disputas  
 - Cumplimiento de estándares PCI-DSS  
 
-**Ejemplo de flujo básico:**  
-```mermaid
-sequenceDiagram
-    participant C as Cliente
-    participant A as App Web
-    participant P as Pasarela
-    participant B as Banco
-    
-    C->>A: Completa datos de pago
-    A->>P: Envía transacción cifrada
-    P->>B: Verifica fondos/autentica
-    B-->>P: Autorización
-    P-->>A: Confirmación
-    A-->>C: Recibo/Confirmación
-```
+**Ejemplo de flujo básico:**
+
+![alt text](image-3.png)
+
 ## Requisitos comunes
 ---------------------
 
@@ -580,15 +538,8 @@ jobs:
 
 ## Flujo de despliegue automatizado
 
-```mermaid
-graph TD
-    A[Local Git] -->|Push| B[Repositorio GitHub]
-    B -->|Webhook| C[Servicio CI/CD]
-    C -->|Build| D[Pruebas Automáticas]
-    D -->|Pass| E[Despliegue en Netlify]
-    E --> F[Sitio en Producción]
+![alt text](image-4.png)
 
-```
 ## Documentar el proceso seguido para desplegar la parte 2 del laboratorio
 
 ### 1. Preparación inicial
