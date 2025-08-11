@@ -171,8 +171,6 @@ function Home() {
 export default Home;
 ```
 
-
-
 ## Comparación breve entre al menos dos frameworks
 
 Frameworks como Angular y React son herramientas clave, pero difieren en su enfoque. Ya que Angular es un framework completo, ofrece una estructura robusta y completa, mientras que React, una biblioteca, se centra en la interfaz de usuario y se integra con otras herramientas para construir aplicaciones completas. 
@@ -262,7 +260,7 @@ El control de versiones es un sistema que registra los cambios realizados en un 
 
 ## Diagrama de flujo explicativo del proceso de autenticación con JWT
 
-![alt text](image.png)
+![alt text](image-5.png)
 
 ## Buenas prácticas en seguridad web
 
