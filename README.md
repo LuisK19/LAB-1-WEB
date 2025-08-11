@@ -1,4 +1,3 @@
-# Documentación técnica
 ## 💻 Laboratorio 1 – Tecnologías Web Modernas
 #### Nombre: Luis Carlos Trejos Rivera
 #### Carné: 2022437816
