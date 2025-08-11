@@ -669,20 +669,20 @@ netlify deploy --prod
 
 ## Referencias:
 
-https://www.codecademy.com/article/mvc-architecture-model-view-controller
-https://www.netec.com/post/que-es-un-framework-y-para-que-se-utiliza
-https://openwebinars.net/blog/arquitectura-de-software-que-es-y-que-tipos-existen/
-https://luisaalfaro.github.io/lovelace-blog/2020-09-28-merge-pull-requests/
-https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git#:~:text=Una%20solicitud%20de%20incorporaci%C3%B3n%20de,un%20registro%20hist%C3%B3rico%20del%20desarrollo.
-https://www.codehoven.com/git-comandos-y-conceptos
-https://aulab.es/noticia/24/github-bitbucket-gitlab-las-diferencias#:~:text=Github%2C%20Bitbucket%20y%20Gitlab%20son,el%20mundo%20de%20la%20inform%C3%A1tica.
-https://www.ionos.com/es-us/digitalguide/paginas-web/desarrollo-web/bitbucket-vs-github/
-https://zuplo.com/learning-center/top-7-api-authentication-methods-compared
-https://frontegg.com/blog/oauth-vs-jwt#:~:text=Funci%C3%B3n%20principal:%20OAuth%20se%20utiliza,otro%20tipo%20de%20token%20OAuth.
-https://curity.io/resources/learn/jwt-best-practices/
-https://auth0.com/docs/secure/tokens/json-web-tokens
-https://www.contensis.com/community/blog/headless-cms-vs-traditional-cms#:~:text=TL;DR%20Diferencias%20entre%20un,fant%C3%A1stico%20que%20definitivamente%20deber%C3%ADas%20probar.
-https://www.sitecore.com/explore/topics/content-management/headless-cms-vs-traditional-cms
-https://www.kentico.com/discover/blog/should-you-really-go-for-a-headless-cms-pros-and-cons
-https://medium.com/elca-it/the-pros-and-cons-of-headless-architecture-1151d7633f3c
-https://www.hostinger.com/es/tutoriales/headless-cms#:~:text=Un%20headless%20CMS%20es%20un,entrega%20de%20contenido%20entre%20plataformas.
+- https://www.codecademy.com/article/mvc-architecture-model-view-controller
+- https://www.netec.com/post/que-es-un-framework-y-para-que-se-utiliza
+- https://openwebinars.net/blog/arquitectura-de-software-que-es-y-que-tipos-existen/
+- https://luisaalfaro.github.io/lovelace-blog/2020-09-28-merge-pull-requests/
+- https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git#:~:text=Una%20solicitud%20de%20incorporaci%C3%B3n%20de,un%20registro%20hist%C3%B3rico%20del%20desarrollo.
+- https://www.codehoven.com/git-comandos-y-conceptos
+- https://aulab.es/noticia/24/github-bitbucket-gitlab-las-diferencias#:~:text=Github%2C%20Bitbucket%20y%20Gitlab%20son,el%20mundo%20de%20la%20inform%C3%A1tica.
+- https://www.ionos.com/es-us/digitalguide/paginas-web/desarrollo-web/bitbucket-vs-github/
+- https://zuplo.com/learning-center/top-7-api-authentication-methods-compared
+- https://frontegg.com/blog/oauth-vs-jwt#:~:text=Funci%C3%B3n%20principal:%20OAuth%20se%20utiliza,otro%20tipo%20de%20token%20OAuth.
+- https://curity.io/resources/learn/jwt-best-practices/
+- https://auth0.com/docs/secure/tokens/json-web-tokens
+- https://www.contensis.com/community/blog/headless-cms-vs-traditional-cms#:~:text=TL;DR%20Diferencias%20entre%20un,fant%C3%A1stico%20que%20definitivamente%20deber%C3%ADas%20probar.
+- https://www.sitecore.com/explore/topics/content-management/headless-cms-vs-traditional-cms
+- https://www.kentico.com/discover/blog/should-you-really-go-for-a-headless-cms-pros-and-cons
+- https://medium.com/elca-it/the-pros-and-cons-of-headless-architecture-1151d7633f3c
+- https://www.hostinger.com/es/tutoriales/headless-cms#:~:text=Un%20headless%20CMS%20es%20un,entrega%20de%20contenido%20entre%20plataformas.
